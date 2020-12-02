@@ -4,12 +4,13 @@ import DemoFunctionComponent from './Components/DemoFunctionComponent';
 import DemoReactClassComponent from './Components/DemoReactClassComponent';
 import BaiTapLayout from './Components/BaiTapLayout/BaiTapLayout';
 import BaiTapThucHanhLayout from './BaiTapThucHanhLayout/BaiTapThucHanhLayout';
+import BaiTapThayDoiKinh from './BaiTapThayDoiKinh/BaiTapThayDoiKinh';
 
 function App() {
   return (
     <div className="App">
-      <BaiTapThucHanhLayout/>
-      
+      {/* <BaiTapThucHanhLayout/> */}
+      <BaiTapThayDoiKinh/>
     </div>
   );
 }
